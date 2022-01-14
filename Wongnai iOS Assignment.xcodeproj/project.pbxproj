@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		645D36D4278C8FAB0070AEB2 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D36D3278C8FAB0070AEB2 /* Detail.swift */; };
+		645D36DE278EDE8F0070AEB2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D36DD278EDE8F0070AEB2 /* ListView.swift */; };
+		645D36E0278EDE9F0070AEB2 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645D36DF278EDE9F0070AEB2 /* ListView.xib */; };
+		645D36F027913FFD0070AEB2 /* InsertionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D36EE27913FFD0070AEB2 /* InsertionTableViewCell.swift */; };
+		645D36F127913FFD0070AEB2 /* InsertionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645D36EF27913FFD0070AEB2 /* InsertionTableViewCell.xib */; };
+		645E274C278A9A8E0088EA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E274B278A9A8E0088EA3B /* AppDelegate.swift */; };
+		645E274E278A9A8E0088EA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E274D278A9A8E0088EA3B /* SceneDelegate.swift */; };
+		645E2750278A9A8E0088EA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E274F278A9A8E0088EA3B /* ViewController.swift */; };
+		645E2753278A9A8E0088EA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645E2751278A9A8E0088EA3B /* Main.storyboard */; };
+		645E2755278A9A910088EA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645E2754278A9A910088EA3B /* Assets.xcassets */; };
+		645E2758278A9A910088EA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645E2756278A9A910088EA3B /* LaunchScreen.storyboard */; };
+		645E276C278AA2340088EA3B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E276A278AA2340088EA3B /* ListTableViewCell.swift */; };
+		645E276D278AA2340088EA3B /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E276B278AA2340088EA3B /* ListTableViewCell.xib */; };
+		D00D8F0D6B589E580B1CD9ED /* libPods-Wongnai iOS Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EA765D22A1CA550B32025A /* libPods-Wongnai iOS Assignment.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2186286594C2362B4A328C8B /* Pods-Wongnai iOS Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wongnai iOS Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Wongnai iOS Assignment/Pods-Wongnai iOS Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		40AA6FF0CCD0BF7150674A80 /* Pods-Wongnai iOS Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wongnai iOS Assignment.release.xcconfig"; path = "Target Support Files/Pods-Wongnai iOS Assignment/Pods-Wongnai iOS Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		59EA765D22A1CA550B32025A /* libPods-Wongnai iOS Assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wongnai iOS Assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D36D3278C8FAB0070AEB2 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		645D36DD278EDE8F0070AEB2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		645D36DF278EDE9F0070AEB2 /* ListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
+		645D36EE27913FFD0070AEB2 /* InsertionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionTableViewCell.swift; sourceTree = "<group>"; };
+		645D36EF27913FFD0070AEB2 /* InsertionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsertionTableViewCell.xib; sourceTree = "<group>"; };
+		645E2748278A9A8E0088EA3B /* Wongnai iOS Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wongnai iOS Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645E274B278A9A8E0088EA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		645E274D278A9A8E0088EA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		645E274F278A9A8E0088EA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		645E2752278A9A8E0088EA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		645E2754278A9A910088EA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		645E2757278A9A910088EA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		645E2759278A9A910088EA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645E276A278AA2340088EA3B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		645E276B278AA2340088EA3B /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645E2745278A9A8E0088EA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00D8F0D6B589E580B1CD9ED /* libPods-Wongnai iOS Assignment.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57E195AFAA35FE05251FB853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2186286594C2362B4A328C8B /* Pods-Wongnai iOS Assignment.debug.xcconfig */,
+				40AA6FF0CCD0BF7150674A80 /* Pods-Wongnai iOS Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		645D36E527900CC50070AEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				645D36D3278C8FAB0070AEB2 /* Detail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		645D36F52791810E0070AEB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				645E274F278A9A8E0088EA3B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		645E273F278A9A8E0088EA3B = {
+			isa = PBXGroup;
+			children = (
+				645E274A278A9A8E0088EA3B /* Wongnai iOS Assignment */,
+				645E2749278A9A8E0088EA3B /* Products */,
+				57E195AFAA35FE05251FB853 /* Pods */,
+				A1B56CDDBFAD533567B5E989 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		645E2749278A9A8E0088EA3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645E2748278A9A8E0088EA3B /* Wongnai iOS Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645E274A278A9A8E0088EA3B /* Wongnai iOS Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				645D36E527900CC50070AEB2 /* Model */,
+				645E275F278A9DD20088EA3B /* View */,
+				645D36F52791810E0070AEB2 /* Controller */,
+				645E274B278A9A8E0088EA3B /* AppDelegate.swift */,
+				645E274D278A9A8E0088EA3B /* SceneDelegate.swift */,
+				645E2751278A9A8E0088EA3B /* Main.storyboard */,
+				645E2754278A9A910088EA3B /* Assets.xcassets */,
+				645E2756278A9A910088EA3B /* LaunchScreen.storyboard */,
+				645E2759278A9A910088EA3B /* Info.plist */,
+			);
+			path = "Wongnai iOS Assignment";
+			sourceTree = "<group>";
+		};
+		645E275F278A9DD20088EA3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				645E276A278AA2340088EA3B /* ListTableViewCell.swift */,
+				645E276B278AA2340088EA3B /* ListTableViewCell.xib */,
+				645D36DD278EDE8F0070AEB2 /* ListView.swift */,
+				645D36DF278EDE9F0070AEB2 /* ListView.xib */,
+				645D36EE27913FFD0070AEB2 /* InsertionTableViewCell.swift */,
+				645D36EF27913FFD0070AEB2 /* InsertionTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1B56CDDBFAD533567B5E989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59EA765D22A1CA550B32025A /* libPods-Wongnai iOS Assignment.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645E2747278A9A8E0088EA3B /* Wongnai iOS Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645E275C278A9A910088EA3B /* Build configuration list for PBXNativeTarget "Wongnai iOS Assignment" */;
+			buildPhases = (
+				4C47542D188FEC25BB3DF28A /* [CP] Check Pods Manifest.lock */,
+				645E2744278A9A8E0088EA3B /* Sources */,
+				645E2745278A9A8E0088EA3B /* Frameworks */,
+				645E2746278A9A8E0088EA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wongnai iOS Assignment";
+			productName = "Wongnai iOS Assignment";
+			productReference = 645E2748278A9A8E0088EA3B /* Wongnai iOS Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645E2740278A9A8E0088EA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					645E2747278A9A8E0088EA3B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 645E2743278A9A8E0088EA3B /* Build configuration list for PBXProject "Wongnai iOS Assignment" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 645E273F278A9A8E0088EA3B;
+			productRefGroup = 645E2749278A9A8E0088EA3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645E2747278A9A8E0088EA3B /* Wongnai iOS Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645E2746278A9A8E0088EA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645E2758278A9A910088EA3B /* LaunchScreen.storyboard in Resources */,
+				645D36F127913FFD0070AEB2 /* InsertionTableViewCell.xib in Resources */,
+				645E276D278AA2340088EA3B /* ListTableViewCell.xib in Resources */,
+				645D36E0278EDE9F0070AEB2 /* ListView.xib in Resources */,
+				645E2755278A9A910088EA3B /* Assets.xcassets in Resources */,
+				645E2753278A9A8E0088EA3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C47542D188FEC25BB3DF28A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wongnai iOS Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645E2744278A9A8E0088EA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645E2750278A9A8E0088EA3B /* ViewController.swift in Sources */,
+				645D36D4278C8FAB0070AEB2 /* Detail.swift in Sources */,
+				645E276C278AA2340088EA3B /* ListTableViewCell.swift in Sources */,
+				645D36DE278EDE8F0070AEB2 /* ListView.swift in Sources */,
+				645E274C278A9A8E0088EA3B /* AppDelegate.swift in Sources */,
+				645E274E278A9A8E0088EA3B /* SceneDelegate.swift in Sources */,
+				645D36F027913FFD0070AEB2 /* InsertionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		645E2751278A9A8E0088EA3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645E2752278A9A8E0088EA3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		645E2756278A9A910088EA3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645E2757278A9A910088EA3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		645E275A278A9A910088EA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		645E275B278A9A910088EA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645E275D278A9A910088EA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2186286594C2362B4A328C8B /* Pods-Wongnai iOS Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wongnai iOS Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Wongnai-iOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645E275E278A9A910088EA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AA6FF0CCD0BF7150674A80 /* Pods-Wongnai iOS Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wongnai iOS Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Wongnai-iOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645E2743278A9A8E0088EA3B /* Build configuration list for PBXProject "Wongnai iOS Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E275A278A9A910088EA3B /* Debug */,
+				645E275B278A9A910088EA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645E275C278A9A910088EA3B /* Build configuration list for PBXNativeTarget "Wongnai iOS Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E275D278A9A910088EA3B /* Debug */,
+				645E275E278A9A910088EA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645E2740278A9A8E0088EA3B /* Project object */;
+}
