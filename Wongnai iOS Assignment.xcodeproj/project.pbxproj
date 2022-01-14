@@ -20,13 +20,9 @@
 		645E2758278A9A910088EA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645E2756278A9A910088EA3B /* LaunchScreen.storyboard */; };
 		645E276C278AA2340088EA3B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E276A278AA2340088EA3B /* ListTableViewCell.swift */; };
 		645E276D278AA2340088EA3B /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E276B278AA2340088EA3B /* ListTableViewCell.xib */; };
-		D00D8F0D6B589E580B1CD9ED /* libPods-Wongnai iOS Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EA765D22A1CA550B32025A /* libPods-Wongnai iOS Assignment.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2186286594C2362B4A328C8B /* Pods-Wongnai iOS Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wongnai iOS Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Wongnai iOS Assignment/Pods-Wongnai iOS Assignment.debug.xcconfig"; sourceTree = "<group>"; };
-		40AA6FF0CCD0BF7150674A80 /* Pods-Wongnai iOS Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wongnai iOS Assignment.release.xcconfig"; path = "Target Support Files/Pods-Wongnai iOS Assignment/Pods-Wongnai iOS Assignment.release.xcconfig"; sourceTree = "<group>"; };
-		59EA765D22A1CA550B32025A /* libPods-Wongnai iOS Assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wongnai iOS Assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645D36D3278C8FAB0070AEB2 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		645D36DD278EDE8F0070AEB2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		645D36DF278EDE9F0070AEB2 /* ListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
@@ -49,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00D8F0D6B589E580B1CD9ED /* libPods-Wongnai iOS Assignment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +54,6 @@
 		57E195AFAA35FE05251FB853 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2186286594C2362B4A328C8B /* Pods-Wongnai iOS Assignment.debug.xcconfig */,
-				40AA6FF0CCD0BF7150674A80 /* Pods-Wongnai iOS Assignment.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -87,7 +80,6 @@
 				645E274A278A9A8E0088EA3B /* Wongnai iOS Assignment */,
 				645E2749278A9A8E0088EA3B /* Products */,
 				57E195AFAA35FE05251FB853 /* Pods */,
-				A1B56CDDBFAD533567B5E989 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,14 +120,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		A1B56CDDBFAD533567B5E989 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59EA765D22A1CA550B32025A /* libPods-Wongnai iOS Assignment.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,7 +127,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 645E275C278A9A910088EA3B /* Build configuration list for PBXNativeTarget "Wongnai iOS Assignment" */;
 			buildPhases = (
-				4C47542D188FEC25BB3DF28A /* [CP] Check Pods Manifest.lock */,
 				645E2744278A9A8E0088EA3B /* Sources */,
 				645E2745278A9A8E0088EA3B /* Frameworks */,
 				645E2746278A9A8E0088EA3B /* Resources */,
@@ -205,31 +188,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4C47542D188FEC25BB3DF28A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wongnai iOS Assignment-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		645E2744278A9A8E0088EA3B /* Sources */ = {
@@ -386,7 +344,6 @@
 		};
 		645E275D278A9A910088EA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2186286594C2362B4A328C8B /* Pods-Wongnai iOS Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,7 +371,6 @@
 		};
 		645E275E278A9A910088EA3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40AA6FF0CCD0BF7150674A80 /* Pods-Wongnai iOS Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
